@@ -1,5 +1,3 @@
-# structures that maps excel columns to json features
-
 STRUCTURE = {
     'A': 'nameEn',
     'B': 'nameKk',

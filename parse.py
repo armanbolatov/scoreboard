@@ -1,11 +1,6 @@
 import openpyxl as xl
 
 def dictify(fname, lname, STRUCTURE):
-    '''
-    Inputs: nothing
-    Outputs: a python dictionary mapping college names to various requirements
-    '''
-    # Let's make a dictionary of all colleges
     DATA = {}
     DB = xl.load_workbook(fname)
     DS = DB[lname]
@@ -19,6 +14,6 @@ def dictify(fname, lname, STRUCTURE):
         for keyLtr, code in STRUCTURE.items():
             key = keyLtr + str(i)
             internalData[code] = DS[key].value
-        i+=1
+        i += 1
 
     return DATA

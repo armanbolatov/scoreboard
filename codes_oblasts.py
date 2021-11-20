@@ -1,5 +1,3 @@
-# maps regions and school names into their ID
-
 oblToCode = {
     'АОО "НИШ"': 18,
     'АОО «НИШ»': 18,
@@ -74,6 +72,7 @@ oblToCode = {
     'г. Шымкент': 17,
     'город Шымкент': 17
 }
+
 codeToOblast = {
     1: 'г. Нур-Султан',
     2: 'г. Алматы',
@@ -96,5 +95,3 @@ codeToOblast = {
     19: 'НАО "РФМШ"',
     20: 'Другое'
 }
-
-# print(oblToCode['Южно-Казахстанская'])

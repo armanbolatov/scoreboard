@@ -1,5 +1,3 @@
-# maps country names in Russian and English into two symbol codes
-
 countryToCode = {
     'AB' : 	'AB',
     'AU' : 	'AU',
@@ -1073,5 +1071,3 @@ countryToCode = {
     'Ямайка' : 	'JM',
     'Япония' : 	'JP',
 }
-
-# print(countryToCode['Kazakhstan'])
