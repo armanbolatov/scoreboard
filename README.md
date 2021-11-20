@@ -5,7 +5,7 @@ This is a python program, functioning on [scoreboard.kz](https://scoreboard.kz),
 ## Project structure
 
     .
-    ├── codes_countries.py       # A dictionary mapping country names in Russian and English into two symbol codes
+    ├── codes_countries.py       # A dictionary mapping country names in Russian / English into two symbol codes
     ├── codes_oblasts.py         # Dictionaries that maps regions and school names into their ID and vice-versa
     ├── create_json.py           # Formats raw .xlsx data into JSON format
     ├── decodify.py              # Converts .xlsx file into readable format
